@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OUR NEPAL</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: skyblue;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+        header {
+            background-color: yellow;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Navigation */
+        ul.top-nav {
+            display: flex;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333333;
+        }
+
+        ul.top-nav li a {
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        /* Hover */
+        ul.top-nav li a:hover {
+            background-color: #dddddd;
+            color: black;
+        }
+
+        /* Page sections */
+        .page {
+            min-height: 500px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        /* Home blank space */
+        #home {
+            min-height: 500px;
+        }
+
+        /* News */
+        #news {
+            background-color: white;
+        }
+
+        .news-box {
+            background-color: #eeeeee;
+            margin: 15px auto;
+            padding: 20px;
+            max-width: 700px;
+            border-radius: 10px;
+        }
+
+        .news-button {
+            display: inline-block;
+            background-color: #333333;
+            color: white;
+            padding: 12px 20px;
+            margin: 8px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .news-button:hover {
+            background-color: #555555;
+        }
+
+        /* Contact */
+        #contact {
+            background-color: #f5f5f5;
+        }
+
+        .contact-box {
+            max-width: 600px;
+            margin: auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: left;
+        }
+
+        .contact-box a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        /* About */
+        #about {
+            background-color: white;
+        }
+
+        .website-link {
+            display: block;
+            max-width: 500px;
+            margin: 10px auto;
+            padding: 15px;
+            background-color: #333333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .website-link:hover {
+            background-color: #555555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Mobile */
+        @media screen and (max-width: 600px) {
+
+            ul.top-nav {
+                flex-direction: column;
+            }
+
+            ul.top-nav li a {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>My Website</h1>
+        <p>Welcome to my website</p>
+    </header>
+
+
+    <!-- NAVIGATION -->
+    <ul class="top-nav">
+
+        <li>
+            <a href="#home">Home</a>
+        </li>
+
+        <li>
+            <a href="#news">News</a>
+        </li>
+
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+
+        <li>
+            <a href="#about">About</a>
+        </li>
+
+    </ul>
+
+
+    <!-- HOME -->
+    <section id="home" class="page">
+
+        <!-- Blank Home Space -->
+
+    </section>
+
+
+    <!-- NEWS -->
+    <section id="news" class="page">
+
+        <h1>Nepal Live News</h1>
+
+        <p>Click a button below to read the latest Nepal news.</p>
+
+
+        <div class="news-box">
+
+            <h2>Onlinekhabar</h2>
+
+            <p>
+                Latest news from Nepal.
+            </p>
+
+            <a
+                class="news-button"
+                href="https://www.onlinekhabar.com/latest"
+                target="_blank">
+                Read Onlinekhabar
+            </a>
+
+        </div>
+
+
+        <div class="news-box">
+
+            <h2>Setopati</h2>
+
+            <p>
+                Latest Nepal news and updates.
+            </p>
+
+            <a
+                class="news-button"
+                href="https://www.setopati.com/"
+                target="_blank">
+                Read Setopati
+            </a>
+
+        </div>
+
+
+        <div class="news-box">
+
+            <h2>The Kathmandu Post</h2>
+
+            <p>
+                Latest English news from Nepal.
+            </p>
+
+            <a
+                class="news-button"
+                href="https://kathmandupost.com/"
+                target="_blank">
+                Read Kathmandu Post
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="page">
+
+        <h1>My Information</h1>
+
+
+        <div class="contact-box">
+
+            <p>
+                <strong>Name:</strong>
+                SHISHIR GC
+            </p>
+
+
+            <p>
+                <strong>From:</strong>
+                KAPILVASTU, NEPAL
+            </p>
+
+
+            <p>
+                <strong>WhatsApp:</strong>
+
+                <a
+                    href="https://wa.me/9779800000000"
+                    target="_blank">
+                    9867180840
+                </a>
+            </p>
+
+
+            <p>
+                <strong>Facebook:</strong>
+
+                <a
+                    href="https://www.facebook.com/"
+                    target="_blank">
+                    SHISHIR G CHHETRI
+                </a>
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="page">
+
+        <h1>Other Useful Websites</h1>
+
+        <p>Click any website below.</p>
+
+
+        <a
+            class="website-link"
+            href="https://www.google.com/"
+            target="_blank">
+            Google
+        </a>
+
+
+        <a
+            class="website-link"
+            href="https://www.youtube.com/"
+            target="_blank">
+            YouTube
+        </a>
+
+
+        <a
+            class="website-link"
+            href="https://www.wikipedia.org/"
+            target="_blank">
+            Wikipedia
+        </a>
+
+
+        <a
+            class="website-link"
+            href="https://www.onlinekhabar.com/"
+            target="_blank">
+            Onlinekhabar
+        </a>
+
+
+        <a
+            class="website-link"
+            href="https://www.setopati.com/"
+            target="_blank">
+            Setopati
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>© 2026 My Website</p>
+
+    </footer>
+
+</body>
+</html>
